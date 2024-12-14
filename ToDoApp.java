@@ -6,11 +6,13 @@ public class ToDoApp {
 
         String[][] tasks = new String[2][10];
         char option;
+        int currentIndex = 0;
         
         do {
             System.out.println("==============");
             System.out.println("| TO-DO LIST |");
             System.out.println("==============");
+            System.out.println("CURRENT TASKS");
             
             System.out.print("Do you wish to input again? [Y/N]: ");
             option = input.next().charAt(0);
