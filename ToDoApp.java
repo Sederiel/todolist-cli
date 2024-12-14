@@ -4,7 +4,9 @@ public class ToDoApp {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
+        String[][] tasks = new String[2][10];
         char option;
+        
         do {
             System.out.println("==============");
             System.out.println("| TO-DO LIST |");
